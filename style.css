@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #222222;
+  font-family: brown;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-spacing: 28px;
+}
+
+/* NABAR SECTION  */
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 50px;
+  background: #f9f7f2 0% 0% no-repeat padding-box;
+  background: #f9f7f2 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 0px #eeeeee;
+  opacity: 1;
+  font-style: normal normal;
+  font-weight: normal normal;
+  font-family: brown;
+}
+
+#logo {
+  margin-right: auto;
+  font-size: 1em;
+  margin-left: 100px;
+}
+
+.header ul li {
+  display: flex;
+  list-style: none;
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+ul {
+  display: inline;
+}
+
+li {
+  height: 20px;
+}
+
+#mix {
+  margin-top: 4px;
+  padding: 9px 9px;
+  background-color: #ffff;
+  border-radius: 6px solid #ffffff;
+  display: inline;
+  border-radius: 16px;
+}
+.popup {
+  cursor: pointer;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  margin-top: 33px;
+  visibility: hidden;
+  width: 130px;
+  height: auto;
+  background-color: #ffffff;
+  color: #707070;
+  text-align: left;
+  border-radius: 6px;
+  padding: 7px 10px;
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  margin-left: 350px;
+}
+.popup .popuptext::after {
+  list-style: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #0000001a;
+  border-radius: 10px;
+  padding-bottom: 3px;
+  opacity: 1;
+  
+}
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#pop-list {
+  padding: 3px;
+  opacity: 1;
+  width: 100%;
+}
+
+/* INternt Icon PopUp  */
+
+.popup2 {
+  cursor: pointer;
+}
+
+.popup2 .popuptext2 {
+  margin-top: 2px;
+  visibility: hidden;
+  width: 126px;
+  height: 106px;
+  background-color: #ffffff;
+  color: #707070;
+  text-align: left;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  top: 35px;
+  left: -138px;
+}
+.popup2 .popuptext2::after {
+  list-style: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #0000001a;
+  border-radius: 10px;
+  padding-bottom: 3px;
+  opacity: 1;
+}
+
+.popup2 .show2 {
+  display: block;
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#pop-list2 {
+  padding: 11px 68px 11px 11px;
+  opacity: 1;
+  width: 100%;
+}
+
+.internet {
+  cursor: pointer;
+}
+
+
+/* END of INternet PopUp ()  */
+
+.ham-icon {
+  position: relative;
+  top: 5px;
+  right: 2.4px;
+}
+
+#net-li {
+  border-radius: 100%;
+  padding: 2px;
+  position: relative;
+  top: 5px;
+  left: 4px;
+  cursor: pointer;
+}
+
+#alert-icon {
+  position: relative;
+  top: 3.3px;
+}
+
+span {
+  font-size: 0.8rem;
+  padding: 5px 8px;
+  font-family: bold;
+  color: #ffffff;
+  border-radius: 100%;
+  background-color: #b79535;
+  font-weight: 500;
+}
+
+/* MAIN CONTENT  */
+
+h1 {
+  width: 333px;
+  font-style: normal;
+  font-weight: normal normal 36px/42px IvyMode;
+  color: #222222;
+  text-align: left;
+  font: normal normal normal 36px/42px IvyMode;
+  letter-spacing: 1.19px;
+  color: #222222;
+  opacity: 1;
+}
+
+.mainContent {
+  margin: auto;
+  height: 1126px;
+  margin-bottom: 20px;
+  width: 60%;
+  padding: 70px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid color-dddddd;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dddddd;
+  opacity: 1;
+}
+
+form {
+  margin-left: 35px;
+}
+
+#person {
+  float: left;
+}
+
+.content {
+  margin-top: 43px;
+  display: flex;
+}
+
+label {
+  font-size: 14px;
+  font-style: normal normal;
+  font-weight: normal;
+  font-family: brown;
+  text-align: center;
+  font: normal normal normal Brown;
+  letter-spacing: 0.31px;
+  color: #222222;
+  opacity: 1;
+  margin-bottom: 11px;
+}
+
+input {
+  margin-top: 11px;
+  margin-bottom: 29px;
+  width: 468px;
+  height: 60px;
+  background: var(color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid #dddddd;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  opacity: 1;
+  padding-left: 20px;
+}
+
+::placeholder {
+  padding: 21px 0px 19px 20px;
+}
+
+#date-input {
+  width: 468px;
+}
+input[type="date"] {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.photo-ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.photo-ul li img {
+  background: #222222 0% 0% no-repeat padding-box;
+  background: #222222 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+
+.down {
+  height: 130px;
+  margin-top: 123px;
+  margin-bottom: 31px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: left;
+  margin-left: -110px;
+  list-style: none;
+}
+
+.down-li-img {
+  background: #222222 0% 0% no-repeat padding-box;
+  background: #222222 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 0.7;
+  list-style: none;
+}
+
+#last-input {
+  margin-top: 20px;
+}
+
+#btn {
+  width: 129px;
+  height: 60px;
+  background: var(color-ff385c) 0% 0% no-repeat padding-box;
+  background: #ff385c 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  display: inline;
+  margin-right: 20px;
+}
+
+footer {
+  padding: 23px;
+  font-size: 14px;
+  display: flex;
+  list-style: none;
+  background: var(color-222222) 0% 0% no-repeat padding-box;
+  background: #222222 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+footer ul li {
+  display: inline;
+  list-style: none;
+  color: #eeeeee;
+}
+
+.copy {
+  margin-left: 100px;
+}
+
+.next {
+  padding-left: 500px;
+}
+
+.copy2-items {
+  display: inline;
+  padding-left: 10px;
+}

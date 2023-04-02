@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neom</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    
+  </head>
+  <body>
+
+    <div class="main">
+      <div class="header">
+        <img src="imgFonts/img/logo-black.svg" id="logo" />
+        <nav>
+          <ul>
+            <li>Dashboard</li>
+            <li>My Favourites</li>
+            <li>Upcoming events</li>
+            <li id="alert-icon">
+              <img src="notification.png" height="16px" width="14px" />
+            </li>
+
+  <ul class="popup" onclick="myFunction()">
+    <li id="mix">
+      <img src="hamburger.png" height="16px" width="14px" class="ham-icon" />
+      <span class="c">C</span>
+     <ul class="popuptext" id="myPopup">
+      <li id="pop-list">Edit profile</li>
+      <li id="pop-list">Feedback</li><br>
+      <li id="pop-list">Settings</li><br>
+     </ul>
+    </li>
+</ul>    
+
+ <!-- Internet Icon Popup  -->
+
+<ul  class="popup2" onclick="myFunction2()">
+  <li id="net-li">
+    <img
+      class="internet"
+      src="internet.png"
+      height="17px"
+      width="17px"
+      />
+      <ul class="popuptext2" id="myPopup2">
+      <li id="pop-list2">English</li>
+      <li id="pop-list2">French</li>
+      <li id="pop-list2">Arabic</li>
+    </ul>
+  </li>
+ </ul>
+</ul>
+</nav>
+
+      </div>
+      <!-- Main Content  -->
+      <div class="mainContent">
+        <h1>Edit Charlie's profile</h1>
+        <div class="content">
+          <img
+            id="person"
+            height="160"
+            width="160"
+            src="imgFonts/img/standup-comedy.png"
+          />
+          <form>
+            <label>What should we call you?</label>
+            <br />
+            <input type="text" placeholder="Charlie" />
+            <br />
+            <label>What's your email address?</label>
+            <br />
+            <input type="email" placeholder="charliew@gmail.com" />
+            <br />
+            <label>On which number can we contact you?</label>
+            <br />
+            <input type="number" placeholder="9971877676" />
+            <br />
+            <label>When can we wish a happy birthday?</label>
+            <br />
+            <input
+              type="date"
+              id="start"
+              value="2018-07-22"
+              min="2018-01-01"
+              max="2018-12-31"
+            />
+            <br />
+
+
+            <!-- IMAGES  -->
+            <ul class="photo-ul">
+              <li>
+                <img src="imgFonts/img/music.png" height="133" width="93" />
+              </li>
+              <li>
+                <img src="imgFonts/img/music.png" height="133" width="93" />
+              </li>
+              <li>
+                <img src="imgFonts/img/music.png" height="133" width="93" />
+              </li>
+              <li>
+                <img src="imgFonts/img/music.png" height="133" width="93" />
+              </li>
+              <li>
+                <img src="imgFonts/img/music.png" height="133" width="93" />
+              </li>
+              <li>
+                <img src="imgFonts/img/music.png" height="133" width="93" />
+              </li>
+            </ul>
+            <!-- DOWN Image  -->
+            <ul class="down">
+              <li>
+                <img
+                  class="down-li-img"
+                  src="imgFonts/img/music.png"
+                  height="133"
+                  width="93"
+                />
+              </li>
+              <li>
+                <img
+                  class="down-li-img"
+                  src="imgFonts/img/music.png"
+                  height="133"
+                  width="93"
+                />
+              </li>
+              <li>
+                <img
+                  class="down-li-img"
+                  src="imgFonts/img/music.png"
+                  height="133"
+                  width="93"
+                />
+              </li>
+              <li>
+                <img
+                  class="down-li-img"
+                  src="imgFonts/img/music.png"
+                  height="133"
+                  width="93"
+                />     
+                           
+              </li>
+              <li>
+                <img
+                  class="down-li-img"
+                  src="imgFonts/img/music.png"
+                  height="133"
+                  width="93"
+                />
+              </li>
+            </ul>
+            <label> Please let us know if you have some interests </label>
+            <input
+              type="text"
+              placeholder="Add multiple interests comma( , ) seperated"
+            />
+<br>
+
+  <div class="btn">
+    <input id="btn" type="button" value="Save">
+    <input id="btn" type="button" value="Cancel">
+  </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+      <footer>
+             <ul>
+              <li class="copy"> Copyright &copy; Neom Sindalah. All Rights Reserved</li>              
+             <li>
+              <ul class="next"> 
+                <li class="copy2-items">Terms of use</li>
+                <li class="copy2-items">Privacy</li>
+                <li class="copy2-items">Cookie</li>
+
+              </ul>
+             </li>
+             </ul>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
